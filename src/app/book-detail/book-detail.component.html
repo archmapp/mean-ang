@@ -1,3 +1,10 @@
+<div>
+  <a routerLink="">戻る</a>
+</div>
+<div>
+  <button class="btn btn-danger" type="button" (click)="backJump()">戻る this.router.navigate(["/"])</button>
+</div>
+<hr />
 <div class="container">
   <h1>{{ book.title }}</h1>
   <dl class="list">
@@ -19,4 +26,8 @@
       <button class="btn btn-danger" type="button" (click)="deleteBook(book._id)">DELETE</button>
     </div>
   </div>
+</div>
+<hr />
+<div>
+  <a routerLink="">戻る</a>
 </div>

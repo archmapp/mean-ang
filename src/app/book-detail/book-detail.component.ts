@@ -30,4 +30,8 @@ export class BookDetailComponent implements OnInit {
         }
       );
   }
+  
+  backJump() {
+    this.router.navigate(["/"]);
+  }
 }
