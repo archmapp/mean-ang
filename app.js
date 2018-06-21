@@ -10,8 +10,8 @@ var app = express();
 var mongoose = require('mongoose');
 mongoose.Promise = require('bluebird');
 // mongoose.connect('mongodb://localhost/mean-angular5', { promiseLibrary: require('bluebird') })
-// mongoose.connect('mongodb://192.168.24.96/mean-angular5', { promiseLibrary: require('bluebird') })
-mongoose.connect('mongodb://192.168.10.106/mean-angular5', {
+mongoose.connect('mongodb://192.168.24.96/mean-angular5', { promiseLibrary: require('bluebird') })
+// mongoose.connect('mongodb://192.168.10.106/mean-angular5', {
   promiseLibrary: require('bluebird')
 })
   .then(() =>  console.log('mongodb: connection succesful'))
